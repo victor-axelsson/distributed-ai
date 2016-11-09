@@ -1,0 +1,9 @@
+# to compile and move into folder:
+javac   /Users/victoraxelsson/Desktop/JavaJade/src/*/*.java -d /Users/victoraxelsson/Downloads/JADE-all-4.4.0/jade/classes
+
+
+#My claspath:
+/Users/victoraxelsson/Downloads/JADE-all-4.4.0/jade/lib/jade.jar:/Users/victoraxelsson/Downloads/JADE-all-4.4.0/jade/classes
+
+#To Startup shiet
+java jade.Boot -gui -platform-id TourGuide
